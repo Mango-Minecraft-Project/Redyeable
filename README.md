@@ -19,7 +19,7 @@
 
 ReDyeable is a basic mod that allows the player to redye blocks like glass and terracotta as many times as they want and individually, like wool.
 
-**WIth Redyeable:**
+**With Redyeable:**
 
 ![](img/recipe1.gif)
 
