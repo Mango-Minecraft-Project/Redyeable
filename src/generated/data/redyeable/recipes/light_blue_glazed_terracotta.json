@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "pattern": [
+        "AB"
+    ],
+    "key": {
+        "A": {
+            "tag": "minecraft:glazed_terracottas"
+        },
+        "B": {
+            "item": "minecraft:light_blue_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:light_blue_glazed_terracotta",
+        "count": 1
+    }
+}

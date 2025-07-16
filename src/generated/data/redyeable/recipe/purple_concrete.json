@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "pattern": [
+        "AB"
+    ],
+    "key": {
+        "A": {
+            "tag": "minecraft:concretes"
+        },
+        "B": {
+            "item": "minecraft:purple_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:purple_concrete",
+        "count": 1
+    }
+}

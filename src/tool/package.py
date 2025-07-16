@@ -1,29 +1,11 @@
 import zipfile
-import tomllib
-import json
 from typing import Literal
 from pathlib import Path
 
-from global_variable import CWD, MAIN, GENERATED
+from global_variable import CWD, MAIN, GENERATED, get_metadata
 
 PACKAGE_TYPE = Literal["data_pack", "resource_pack", "mod"]
 SOURCE_TYPE = Literal["main", "generated"]
-
-
-def get_metadata():
-    if (forge_metadata := MAIN / "META-INF/mods.toml").is_file():
-        with forge_metadata.open("rb") as file:
-            return ("forge", tomllib.load(file))
-    elif (neoforge_metadata := MAIN / "META-INF/neoforge.mods.toml").is_file():
-        with neoforge_metadata.open("rb") as file:
-            return ("neoforge", tomllib.load(file))
-    elif (fabric_metadata := MAIN / "fabric.mod.json").is_file():
-        with fabric_metadata.open("r", encoding="utf-8") as file:
-            return ("fabric", json.load(file))
-    else:
-        raise FileNotFoundError(
-            "No metadata file found. Please ensure META-INF/mods.toml, META-INF/neoforge.mods.toml or fabric.mod.json exists."
-        )
 
 
 def get_files(package_type: PACKAGE_TYPE, source_type: SOURCE_TYPE):
@@ -125,9 +107,4 @@ def package(type: PACKAGE_TYPE):
         print(f"Packaged {type} for version {version} to {output_filename}")
 
 
-def main():
-    # package("data_pack")
-    # package("resource_pack")
-    package("mod")
-
-main()
+__all__ = ["package", "get_metadata"]

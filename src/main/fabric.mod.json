@@ -1,30 +1,20 @@
-// https://wiki.fabricmc.net/documentation:fabric_mod_json
 {
-  // Mandatory fields
   "schemaVersion": 1,
-  "id": "",
-  "version": "0.0.1",
+  "id": "redyeable",
+  "version": "1.0.0",
 
-  // Optional fields
-  // - Mod Loading
-  "environment": "*", // client, server, or * (both client and server). default: *
+  "environment": "server", // client, server, or * (both client and server). default: *
 
-  // - Dependency resolution
   "depends": {},
-  // "recommends": {},
-  // "suggests": {},
-  // "breaks": {},
-  // "conflicts": {},
 
-  // - Metadata
-  "name": "",
-  "description": "",
+  "name": "Redyeable",
+  "description": "A Minecraft mod that allows players to dye items.",
   "contact": {
-    "homepage": "https://modrinth.com/",
-    "sources": "https://github.com/",
-    "issues": "https://github.com//issues"
+    "homepage": "https://modrinth.com/project/rLCrXpGS",
+    "sources": "https://github.com/Mango-Minecraft-Project/Redyeable",
+    "issues": "https://github.com/Mango-Minecraft-Project/Redyeable/issues"
   },
-  "authors": [""],
+  "authors": ["willowmayweep", "MangoJellyPudding"],
   "contributors": [],
   "license": "AGPL-3.0",
   "icon": "pack.png"

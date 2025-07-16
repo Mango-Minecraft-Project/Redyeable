@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "pattern": [
+        "AB"
+    ],
+    "key": {
+        "A": {
+            "tag": "minecraft:concrete_powders"
+        },
+        "B": {
+            "item": "minecraft:blue_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:blue_concrete_powder",
+        "count": 1
+    }
+}

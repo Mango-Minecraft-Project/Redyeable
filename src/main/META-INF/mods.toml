@@ -4,21 +4,21 @@ modLoader = "lowcodefml"
 loaderVersion = "[1,)" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
 
 license = "AGPL-3.0"
-issueTrackerURL = "https://github.com/"
+issueTrackerURL = "https://github.com/Mango-Minecraft-Project/Redyeable"
 # showAsDataPack = false
 # showAsResourcePack = false
 # clientSideOnly = false
 
 [[mods]]
-modId = ""
-version = "0.0.1"
-displayName = ""
-description = """"""
+modId = "redyeable"
+version = "1.0.0"
+displayName = "ReDyeable"
+description = """allows the player to redye blocks like glass and terracotta as many times as they want and individually, like wool."""
 logoFile = "pack.png"
 # updateJSONURL = ""
 # credits = ""
-authors = ""
-# displayURL = "https://github.com/"
+authors = "willowmayweep, MangoJellyPudding"
+displayURL = "https://github.com/Mango-Minecraft-Project/Redyeable"
 
 [[dependencies.mod_id]]
 modId = "minecraft"
