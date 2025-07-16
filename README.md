@@ -14,7 +14,7 @@
 
 </div>
 
-> ![NOTE]
+> ![INFO]
 > This mod / data pack is a remake of the original [ReDyeable](https://www.curseforge.com/minecraft/mc-mods/redyeable) mod by willowmayweep
 
 ReDyeable is a basic mod that allows the player to redye blocks like glass and terracotta as many times as they want and individually, like wool.
